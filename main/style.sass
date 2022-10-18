@@ -3,9 +3,16 @@
     margin: 0
     padding: 0
 
+#transition_disabled
+    -webkit-transition: none !important
+    -moz-transition: none !important
+    -ms-transition: none !important
+    -o-transition: none !important
+
 body
     width: 1440px
     margin: 0 auto
+    font-family: 'Roboto', sans-serif
 
 .header
     display: flex
@@ -36,3 +43,31 @@ body
     .logo-second
         font-size: 20px
         color: #00c08b
+
+.first-screen__wrapper
+    height: 882px
+    background-image: url(/assets/images/Rectangle.png)
+
+.first-screen
+    padding: 168px 25px 0px 25px
+    display: flex
+    justify-content: space-between
+
+.first-screen__title
+    font-size: 24px
+    font-weight: lighter
+    color: #FFFAEF
+    font-family: 'Roboto', sans-serif
+
+.buy-btn
+    background-color: #E1FF32
+    width: 200px
+    height: 64px
+    font-size: 18px
+    border: 0
+    cursor: pointer
+    transition: 0.3s
+
+.buy-btn:hover
+    background-color: red
+    transition: 0.3s
